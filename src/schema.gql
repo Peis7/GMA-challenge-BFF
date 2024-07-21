@@ -1,0 +1,21 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Portfolio {
+  channel: String!
+}
+
+type Client {
+  id: ID!
+  address: String!
+  blocked: String!
+  cellPhone: String!
+  channel: String!
+  country: String!
+  portfolioData: Portfolio
+}
+
+type Query {
+  client(id: String!): Client!
+}

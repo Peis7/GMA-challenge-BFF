@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  api:
+    build: ./
+    ports:
+      - 3000:3000
+    volumes:
+      - ./src:/src
+    networks:
+      - backend
+    env_file: .env
+    container_name: bff
+
+networks:
+  backend:
+    driver: bridge
