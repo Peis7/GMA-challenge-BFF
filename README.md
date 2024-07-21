@@ -20,8 +20,10 @@ $ make start
 ```
 
 ## How to test
-
-open http://localhost:3000/graphql and try:
+1. Clone the [Client API repo](https://github.com/Peis7/GMA-challenge-client-API.git) and run the app
+2. Clone the [CLient-Porfolio API repo](https://github.com/Peis7/-GMA-challenge-client-portfolio-API.git) and run the app
+3. Run the app
+4. open http://localhost:3000/graphql and try the following query:
 
 ```
 {
